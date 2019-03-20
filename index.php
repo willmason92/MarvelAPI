@@ -2,8 +2,8 @@
 
 // Authentication for Marvel API
 $ts = date('Y-m-d-H:i:s');
-$apikey = "830dca3b8766bd1872581a5a3c5997f8";
-$pkey = "cff56017ade429c16a9bbcd72834c08350e1141c";
+$apikey = "";
+$pkey = "";
 $hash = md5($ts.$pkey.$apikey);
 
 // If form is submitted through the Search button
